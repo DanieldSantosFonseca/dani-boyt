@@ -7,8 +7,8 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "build": "tsc",
-    "start": "tsnd --respawn --cls ./src/main.ts"
+    "postinstall": "tsc && npm start",
+    "start": "node ./dist/main.js"
   },
   "dependencies": {
     "discord.js": "^14.7.1",
