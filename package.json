@@ -7,7 +7,7 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "postinstall": "tsc && npm start",
+    "postinstall": "tsc",
     "start": "node ./dist/main.js"
   },
   "dependencies": {
